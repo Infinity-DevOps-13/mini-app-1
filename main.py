@@ -1,3 +1,4 @@
+# update
 def greet(name="Infinity Developer"):
     return f"Hello, {name}!"
 
