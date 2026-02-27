@@ -1,18 +1,12 @@
-# FastAPI Todo API (Infinity Developer)
+# Infinity Simple Python Project
 
-A tiny FastAPI app with automated tests and GitHub Actions CI.
+This is a very simple Python project to test GitHub Actions.
 
-## Run locally
+## Files
+- `main.py` — a simple Python script
+- `.github/workflows/python-ci.yml` — GitHub Actions CI workflow
 
-```bash
-# 1) (Optional) Create a virtual environment
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux:
-source .venv/bin/activate
+## How to run
+Open terminal and run:
 
-# 2) Install deps
-pip install -r requirements.txt
-
-# 3) Start the API (http://127.0.0.1:8000)
-uvicorn app.main:app --reload
+``
